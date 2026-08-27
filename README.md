@@ -1,2 +1,16 @@
 # docs-mctfr
-Documentation respository for researchers and staff who use MCTFR research data and software applications
+
+Central documentation hub for MCTFR research data and supported applications.
+
+## Local development
+
+```bash
+pip install mkdocs mkdocs-material
+mkdocs serve
+```
+
+## Build
+
+```bash
+mkdocs build
+```

@@ -1,0 +1,33 @@
+site_name: MCTFR Documentation Hub
+site_description: Central documentation hub for MCTFR research data and supported applications
+site_url: https://docs.mctfr.umn.edu
+repo_url: https://github.com/umn-cla-mctfr/docs-mctfr
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Research Data:
+      - Overview: research-data/index.md
+      - Studies, Samples, and Cohorts:
+          - Pilot Cohort Pathway: research-data/cohorts/pilot-cohort-pathway.md
+      - Assessment Timeline: research-data/assessment-timeline.md
+      - Assessment Pages:
+          - Pilot Follow-Up Assessment: research-data/assessments/pilot-follow-up-assessment.md
+      - Measures and Domains:
+          - Aptitude Measure (Pilot): research-data/measures/aptitude-pilot.md
+      - Variables and Scoring: research-data/variables-and-scoring.md
+      - Source Documentation: research-data/source-documentation.md
+  - Supported Applications:
+      - Overview: applications/index.md
+      - IS.MCTFR and LYNX Pilot Guide: applications/is-mctfr-lynx-pilot.md
+  - Source Integration: source-integration.md
+  - Stewardship and Access: stewardship-and-access.md
+  - Implementation Phases: implementation-phases.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true
